@@ -1,1 +1,29 @@
 /* your code */
+table{
+	width:100%;
+	border-collapse:collapse;
+	border:1px solid rgba(0,0,0,0.16);
+	border-radius:8px;
+	overflow:hidden;
+}
+thead>tr{
+	background-color:#004E68;
+	color:white;
+}
+thead>tr>th{
+	padding:10px;
+	border:none;
+	text-align:start;
+}
+
+.odd{
+	background-color:white;
+}
+td{
+	padding:10px;
+}
+.even{
+	
+	background-color:rgba(0,0,0,0.16);
+	
+}
